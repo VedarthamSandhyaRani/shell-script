@@ -1,7 +1,7 @@
 #!/bin/bash
 
-Parent = $ Hari
-Parent1 = $ Santosh
+Parent=$1
+Parent1=$2
 
-echo "Parent = $ Parent"
-echo "Parent1 = $ Parent1"
+echo "Parent= $Parent"
+echo "Parent1= $Parent1"
