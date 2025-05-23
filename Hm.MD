@@ -1,1 +1,3 @@
-Yes i am sandhya
+#!/bin/bash
+
+echo "Print hello world"
