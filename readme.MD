@@ -8,3 +8,5 @@ Push the changes to Git
 **naming convention:use small case with hyphens
 git add (file name)
 git commit -m
+gesty jalalhdhalh
+hweb
