@@ -1,3 +1,5 @@
 #!/bin/bash
 
-echo "Print hello world"
+echo "PHari"
+echo "neelima"
+echo "finland"
