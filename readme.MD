@@ -6,3 +6,5 @@ commit the changes
 push the changes
 Push the changes to Git
 **naming convention:use small case with hyphens
+git add (file name)
+git commit -m
