@@ -24,5 +24,7 @@ if [ $? -ne 0 ]
 then 
  echo "Please run this script with root access correctly"
  exit 1
+else
+  echo "Run the scritpt"
 fi
 
