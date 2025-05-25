@@ -9,8 +9,15 @@ then
 else
   echo "you are super user"
 fi
+# Update packages
+sudo apt update
 
-sudo dnf install java-17-openjdk -y
+# Install OpenJDK 17 (commonly used)
+sudo apt install -y openjdk-17-jdk
+
+# Verify installation
+java -version
+javac -version
 
 if [ $? -ne 0 ]
 then 
