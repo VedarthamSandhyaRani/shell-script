@@ -10,14 +10,6 @@ else
   echo "you are super user"
 fi
 
-sudo dnf apt install -y openjdk-17-jdk
-
-if [ $? -ne 0 ]
-then 
- echo "Please run this script with root access"
- exit 1
-fi
-
 sudo dnf install java-17-openjdk -y
 
 if [ $? -ne 0 ]
