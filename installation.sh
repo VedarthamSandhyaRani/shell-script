@@ -17,3 +17,12 @@ then
  echo "Please run this script with root access"
  exit 1
 fi
+
+sudo dnf install git -y
+
+if [ $? -ne 0 ]
+then 
+ echo "Please run this script with root access correctly"
+ exit 1
+fi
+
