@@ -2,7 +2,7 @@
 
 Number=$1
 
-if [ $Number -ge $20 ]
+if [ $Number -ge 20 ]
 then
 echo "Print number eligible for vote"
 elif [ $Number -eq 18 ]
