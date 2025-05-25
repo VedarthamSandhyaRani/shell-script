@@ -10,6 +10,10 @@ else
   echo "you are super user"
 fi
 
-sudo dnf install sqlite -y
+sudo dnf install sqllite -y
 
-echo "is script proceeding?"
+if [ $? -ne 0 ]
+then 
+ echo "Please run this script with root access"
+ exit 1
+fi
