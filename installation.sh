@@ -18,7 +18,12 @@ then
  exit 1
 fi
 
-sudo dnf install git -y
+# Install OpenJDK 17 (most commonly used)
+sudo dnf install java-17-openjdk -y
+
+# Or install Java 21 if available
+# sudo dnf install java-21-openjdk -y
+
 
 if [ $? -ne 0 ]
 then 
