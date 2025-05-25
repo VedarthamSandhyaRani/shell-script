@@ -10,7 +10,7 @@ else
   echo "you are super user"
 fi
 
-sudo dnf install sqllite -y
+sudo dnf install java-17-openjdk -y
 
 if [ $? -ne 0 ]
 then 
