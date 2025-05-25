@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ $ps -ef | grep -i git ]
+if [ $ps -ef | grep git -eq 0 ]
 then
 echo "Print the number is greater"
 else
