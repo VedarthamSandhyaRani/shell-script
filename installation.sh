@@ -10,7 +10,7 @@ else
   echo "you are super user"
 fi
 
-sudo dnf install java-17-openjdk -y
+sudo dnf install -y java-17-openjdk java-17-openjdk-devel
 
 if [ $? -ne 0 ]
 then 
