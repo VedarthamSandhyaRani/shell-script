@@ -10,4 +10,5 @@ then
 echo "Print number eligible for vote"
 else
 echo "Not eligible for vote"
+fi
 
