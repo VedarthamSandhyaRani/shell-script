@@ -2,13 +2,9 @@
 
 Number=$1
 
-if [ $Number -gt 10];
+if [ $Number -gt $10]; then
 
-then
-
- echo "Print the number is greater:$Number"
-
-fi
+  echo "Print the number is greater:$Number"
 
 else
 
