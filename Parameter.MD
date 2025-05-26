@@ -1,6 +1,6 @@
 #!/bin/bash
 test()
 {
-    echo "User name is"
+    echo "User name is:$1"
 }
-test
+test "sandhya"
