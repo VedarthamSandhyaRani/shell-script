@@ -23,7 +23,8 @@ else
     echo "You are super user."
 fi
 
-dnf install mysql -y &>>$LOGFILE
+
+sudo dnf install -y https://dev.mysql.com/get/mysql80-community-release-el8-1.noarch.rpm &>>$LOGFILE
 VALIDATE $? "Installing MySQL"
 
 dnf install git -y &>>$LOGFILE
