@@ -15,5 +15,5 @@ else
   echo "you are super user"
 fi
 
-dnf install mysql -y
+sudo dnf install -y mariadb-server
 Validate $? "installating my sql" 
