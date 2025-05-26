@@ -18,6 +18,5 @@ fi
 
 sudo dnf install -y https://dev.mysql.com/get/mysql80-community-release-el8-1.noarch.rpm
 Validate $? "installating my sql" 
-sudo apt update
-sudo apt install -y openjdk-17-jdk
+sudo dnf install -y java-17-openjdk java-17-openjdk-devel
 Validate $? "installating JDK" 
