@@ -15,5 +15,5 @@ else
   echo "you are super user"
 fi
 
-sudo dnf install -y mariadb-server
+sudo dnf install -y https://dev.mysql.com/get/mysql80-community-release-el8-1.noarch.rpm
 Validate $? "installating my sql" 
